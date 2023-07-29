@@ -40,7 +40,7 @@ public class NbaResults extends BaseMethods {
 
     public void objaviRezultate() {
         
-        System.out.println("Rezultati za kolo " + trenutnoKolo + ":");
+        System.out.println("Rezultati za ovo kolo " + trenutnoKolo + ":");
         for (int i = 0; i < rasporedUtakmica[trenutnoKolo - 1].length; i++) {
             String utakmica = rasporedUtakmica[trenutnoKolo - 1][i];
             int rezultat = rezultati[trenutnoKolo - 1][i];
